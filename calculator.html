@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Calculator</title>
+  <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+  <div class="calculator">
+    <input type="text" id="result" readonly>
+    <button onclick="addToResult('7')">7</button>
+    <button onclick="addToResult('8')">8</button>
+    <button onclick="addToResult('9')">9</button>
+    <button onclick="addToResult('+')">+</button>
+    <button onclick="addToResult('4')">4</button>
+    <button onclick="addToResult('5')">5</button>
+    <button onclick="addToResult('6')">6</button>
+    <button onclick="addToResult('-')">-</button>
+    <button onclick="addToResult('1')">1</button>
+    <button onclick="addToResult('2')">2</button>
+    <button onclick="addToResult('3')">3</button>
+    <button onclick="addToResult('*')">*</button>
+    <button onclick="addToResult('0')">0</button>
+    <button onclick="resetResult()">C</button>
+    <button onclick="calculate()">=</button>
+    <button onclick="addToResult('/')">/</button>
+  </div>
+<script src="cal.js"></script>
+</body>
+</html>
